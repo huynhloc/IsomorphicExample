@@ -1,1 +1,1 @@
-# IsomorphicExample : EXPRESS + MONGODB + REACT + WEBPACK + BABEL
+# IsomorphicExample : EXPRESS + MONGODB + REACT_REDUX + WEBPACK + BABEL
