@@ -1,0 +1,38 @@
+<div class="content-wrapper" id="quizzForm1">
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <form class="form-validate-jquery">
+          <div class="panel panel-flat">
+            <div class="panel-body">
+              <div class="form-group">
+                <label>Type <span class="text-danger">*</span></label>
+                <select name="action" class="form-control">
+                    <option value="">none</option>
+                    <option value="toVideo">Push Video</option>
+                    <option value="toPlaylist">Push Playlist</option>
+                    <option value="toChannel">Push Channel</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>Message <span class="text-danger">*</span></label>
+                <textarea rows="2" name="overview" cols="3" class="form-control" placeholder="Overview" required="required"></textarea>
+              </div>
+
+              <div class="form-group">
+                <label>VideoId <span class="text-danger">*</span></label>
+                <input type="text" name="id" cols="3" class="form-control" placeholder="id" required="required"></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="button" class="btn btn-primary btn-sm pull-right">Push<i class="icon-arrow-right14 position-right"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+</div>
